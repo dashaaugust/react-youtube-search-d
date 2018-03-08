@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.index-title-wrap {
+    background: linear-gradient(45deg, #0097A7, #04a798);
+    margin-bottom: 40px;
+}
+
+.index-title {
+    padding: 20px 25px 25px 25px;
+    text-align: center;
+}
+
+.index-title-link {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.index-title-link:hover {
+    color: #bbdefb;
+    transition: 1s;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+.searchbar-input {
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+.searchbar-button {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.video-item {
+    border: 1px solid #dddddd;
+    width: 360px;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.video-item:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+    transition: 1s;
+}
+
+.video-item-img {
+    width: 200px;
+    height: auto;
+}
+
+.video-item-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #353535;
+    padding: 10px;
+}
+
+.video-item-description {
+    font-size: 14px;
+    color: #525252;
+    text-align: left;
+}
+
+.video-detail-container {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.video-detail {
+    border: 1px solid #dddddd;
+    max-width: 700px;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff;
+    height: auto;
+}
+
+.video-detail-link {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+.video-detail-link:hover {
+    color: #0097A7;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.video-detail-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #525252;
+    margin: 15px 0;
+}
+
+.video-detail-description {
+    font-size: 16px;
+    color: #525252;
+    text-align: left;
+    padding: 5px;
+}
+
+.video-detail-img-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.video-detail-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.error {
+    text-align: center;
+    color: #7a7a7a;
+    margin: 10px;
+    font-size: 14px;
+}
+
+
+
