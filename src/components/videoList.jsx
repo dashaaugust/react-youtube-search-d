@@ -18,11 +18,13 @@ class VideoList extends Component {
 
     render() {
         const {videos} = this.state;
+
+        if (videos.length === 0) return <p className="error">{this.props.isSearchQuery ? 'Your search returned no results, please try again' : ''}</p>;
+
         return (
             <div>
                 {videos ? videos.map((video) => {
-                    return (<VideosListItem {...this.props} onVideoSelect={this.props.onVideoSelect} video={video} key={video.etag}/>)}) : null}
-                    <p className="error">{this.props.isSearchQuery ? 'Your search returned no results, please try again' : ''}</p>
+                return (<VideosListItem {...this.props} onVideoSelect={this.props.onVideoSelect} video={video} key={video.etag}/>)}) : null}
             </div>
         );
     }
