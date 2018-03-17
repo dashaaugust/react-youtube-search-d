@@ -47,7 +47,7 @@ body {
 
 .video-item {
     border: 1px solid #dddddd;
-    width: 360px;
+    max-width: 360px;
     text-align: center;
     margin: 20px auto 0;
     padding: 20px;
